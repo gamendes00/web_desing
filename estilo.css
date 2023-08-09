@@ -205,6 +205,11 @@ li{
 	width: 60%;
 	/*background-color: #181414;*/
 }
+
+
+
+	
+
 .ap{
 	font-size: 120%;
 }
@@ -342,7 +347,6 @@ li{
 		flex-direction: row;
 		position: relative;*/
 		float: right;
-		
 		/*width: 20vw;*/
 		width: 20%;
 	}
@@ -350,5 +354,11 @@ li{
 		float: left;
 		/*width: 20vw;*/
 		width: 20%;
+		border-image-width: 100px;
+
+	}
+	.imagem1{
+		width: 20vw;
+		height: 27vw;
 	}
 }
