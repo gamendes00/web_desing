@@ -349,13 +349,23 @@ li{
 		float: right;
 		/*width: 20vw;*/
 		width: 20%;
+		margin: 5%;
+	}
+	.imagem2{
+		margin: 1%;
+		width: 130px;
+		height: 157px;
 	}
 	.esquerda1{
 		float: left;
 		/*width: 20vw;*/
+		margin: 3%;
 		width: 20%;
 		border-image-width: 100px;
 
+	}
+	p{
+		margin: 1px;
 	}
 	.imagem1{
 		width: 20vw;
