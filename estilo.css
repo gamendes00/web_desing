@@ -198,7 +198,7 @@ li{
 	float: center;
 	position: top;
 	flex: row;
-	align-self: flex-start;
+	align-self: baseline;
 	flex-direction: row;
 	/*position: relative;*/
 	/*width: 60vw;*/
@@ -217,11 +217,39 @@ li{
 }
 p{
 	margin: 1px;
-}
-	
+}	
 
 .ap{
 	font-size: 120%;
+}
+
+.direita1{
+	float: right;
+	display: flex;
+	position: top;
+	flex: row;
+	align-self: flex-start;
+	flex-direction: row;
+	position: relative;
+	/*width: 20vw;*/
+	width: 20%;
+	margin: 5%;
+}
+
+.esquerda1{
+	float: left;
+	/*width: 20vw;*/
+	margin: 1%;
+	width: 20%;
+	border-image-width: 100px;
+	
+
+}
+
+.imagem1{
+	width: 20vw;
+	height: 27vw;
+	
 }
 
 /*responsividade da fonte*/
@@ -325,6 +353,7 @@ p{
 	
 	.centro{
 		float: left;
+		display: flow-root;
 	}
 	.direita1{
 		float: left;
@@ -348,32 +377,4 @@ p{
 		
 	}
 
-	.direita1{
-		float: right;
-		display: flex;
-		position: top;
-		flex: row;
-		align-self: flex-start;
-		flex-direction: row;
-		position: relative;
-		/*width: 20vw;*/
-		width: 20%;
-		margin: 5%;
-	}
-
-	.esquerda1{
-		float: left;
-		/*width: 20vw;*/
-		margin: 1%;
-		width: 20%;
-		border-image-width: 100px;
-		
-
-	}
-
-	.imagem1{
-		width: 20vw;
-		height: 27vw;
-		
-	}
 }
