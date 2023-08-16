@@ -1,11 +1,17 @@
-*{
-	background-color: 	#1C1C1C;
-	/*border: 1px solid purple; */
-}
 body{
 	color: null;
+	background-color: 	#1C1C1C;
 }
-
+.centro1{
+	width: 60%;
+	
+}
+.ibagem{
+	width: 22px;
+}
+.w3-third{
+	width: 20%;
+}
 /* A, B, P */
 a{
 	color: #ffffff;
@@ -26,13 +32,16 @@ p {
 	padding: 0.5%;
 	font-size: 100%;
 }
-
 /* Hs*/
 h1{
 	color: #ffffff;
 	font-family: 'castellar';
 	padding: 0.5%;
 	/*font-size: 5vw;*/
+}
+.titulo{
+	font-family: 'castellar';
+	margin: 0.5%;
 }
 h2{
 	color: #ffffff;
@@ -85,6 +94,10 @@ button:hover{
 	color: black;
 }
 .menu a.active{
+	background-color: white;
+	color: black;
+}
+.menu a.active1{
 	background-color: white;
 	color: black;
 }
@@ -154,13 +167,13 @@ td{
 
 /* rodapé */
 footer{
-    position: fixed;
+    position: bottom;
     bottom: 0;
 	right: 0;
     background-color: null;
 	border-color: black;
 	border: 1px solid black;
-    color: black;
+    color: rgb(250, 250, 250);
     width: 100%;
     height: 35px;    
     text-align: center;
@@ -170,6 +183,7 @@ footer{
 /* h1 mais imagem */
 .logo h1{
 	float: left;
+	
 }
 .logo img{
 	position: relative;
@@ -197,6 +211,7 @@ li{
 	display: flex;
 	float: center;
 	position: top;
+	flex-wrap: nowrap;
 	flex: row;
 	align-self: baseline;
 	flex-direction: row;
