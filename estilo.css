@@ -279,7 +279,7 @@ p{
 }
 
 /*responsividade da fonte*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 	/**/
 	.menu{
 		/* size: 100%; */
