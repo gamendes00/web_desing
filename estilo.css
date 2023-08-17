@@ -284,7 +284,7 @@ p{
 	.menu{
 		/* size: 100%; */
 		border-radius: 0;
-		width: 100vw;
+		width: 100%;
 	}
 	.menu a{
 		font-size: 4vw;
